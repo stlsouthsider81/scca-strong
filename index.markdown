@@ -15,7 +15,7 @@ title: Home
 
 <div class="content-card">
   <h2>What We Do</h2>
-  <p>We provide families with information regarding SCCA including:</p>
+  <p>We provide families with information about SCCA regarding:</p>
   <ul>
     <li>Announcements and important updates</li>
     <li>Upcoming events and activities</li>
