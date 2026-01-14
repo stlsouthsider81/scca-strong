@@ -11,7 +11,7 @@ permalink: /about/
 
 <div class="content-card">
   <h2>Our Mission</h2>
-  <p>This site is dedicated to supporting SCCA families. We believe in the power of our community to come together and emerge stronger than before.</p>
+  <p>This site is dedicated to supporting SCCA families.</p>
 </div>
 
 <div class="content-card">
