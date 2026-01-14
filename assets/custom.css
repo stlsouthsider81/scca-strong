@@ -1,0 +1,322 @@
+/* Custom Styles for sccastrong.com */
+
+/* Modern color palette */
+:root {
+  --primary-color: #2c5282;
+  --secondary-color: #3182ce;
+  --accent-color: #63b3ed;
+  --text-primary: #2d3748;
+  --text-secondary: #4a5568;
+  --background: #ffffff;
+  --background-secondary: #f7fafc;
+  --border-color: #e2e8f0;
+  --success-color: #48bb78;
+  --warning-color: #ed8936;
+}
+
+/* Override base body styles */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  color: var(--text-primary);
+  background: linear-gradient(to bottom, var(--background-secondary) 0%, var(--background) 100px);
+  min-height: 100vh;
+  line-height: 1.6;
+}
+
+/* Enhanced header styling */
+.site-header {
+  background: var(--background);
+  border-top: 4px solid var(--primary-color);
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  padding: 0.5rem 0;
+}
+
+.site-title {
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--primary-color) !important;
+  letter-spacing: -0.5px;
+  transition: all 0.3s ease;
+}
+
+.site-title:hover {
+  color: var(--secondary-color) !important;
+  text-decoration: none;
+}
+
+/* Navigation improvements */
+.site-nav .page-link {
+  color: var(--text-secondary);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.site-nav .page-link:hover {
+  background-color: var(--background-secondary);
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+/* Hero section for homepage */
+.home-hero {
+  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  color: white;
+  padding: 4rem 2rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(44, 82, 130, 0.2);
+}
+
+.home-hero h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.home-hero p {
+  font-size: 1.25rem;
+  opacity: 0.95;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Enhanced typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  color: var(--text-primary);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.25rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 1.875rem;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+/* Better links */
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
+
+a:visited {
+  color: var(--primary-color);
+}
+
+/* Card-style content blocks */
+.page-content {
+  padding: 3rem 0;
+}
+
+.content-card {
+  background: var(--background);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  transition: all 0.3s ease;
+}
+
+.content-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transform: translateY(-2px);
+}
+
+/* Improved lists */
+ul, ol {
+  margin: 1rem 0 1rem 1.5rem;
+}
+
+li {
+  margin: 0.5rem 0;
+}
+
+/* Enhanced blockquotes */
+blockquote {
+  background: var(--background-secondary);
+  border-left: 4px solid var(--accent-color);
+  border-radius: 4px;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+/* Better tables */
+table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+table th {
+  background: var(--primary-color);
+  color: white;
+  font-weight: 600;
+  text-align: left;
+  padding: 0.75rem 1rem;
+}
+
+table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+table tr:hover {
+  background-color: var(--background-secondary);
+}
+
+/* Footer improvements */
+.site-footer {
+  background: var(--background-secondary);
+  border-top: 1px solid var(--border-color);
+  margin-top: 3rem;
+  padding: 2rem 0;
+}
+
+.footer-heading {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.footer-col-wrapper {
+  color: var(--text-secondary);
+}
+
+/* Buttons and CTAs */
+.button, .btn {
+  display: inline-block;
+  background: var(--secondary-color);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover, .btn:hover {
+  background: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  text-decoration: none;
+  color: white;
+}
+
+/* Utility classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-2 { margin-top: 2rem; }
+.mb-2 { margin-bottom: 2rem; }
+.mt-3 { margin-top: 3rem; }
+.mb-3 { margin-bottom: 3rem; }
+
+/* Responsive improvements */
+@media screen and (max-width: 600px) {
+  .home-hero {
+    padding: 2.5rem 1.5rem;
+  }
+  
+  .home-hero h1 {
+    font-size: 2rem;
+  }
+  
+  .home-hero p {
+    font-size: 1.1rem;
+  }
+  
+  h1 {
+    font-size: 1.875rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .content-card {
+    padding: 1.5rem;
+  }
+}
+
+/* Animation for smooth page loads */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-content {
+  animation: fadeIn 0.5s ease;
+}
+
+/* Focus states for accessibility */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--accent-color);
+  outline-offset: 2px;
+}
+
+/* Post list improvements */
+.post-list {
+  margin: 2rem 0;
+}
+
+.post-list > li {
+  background: var(--background);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.post-list > li:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transform: translateX(4px);
+}
+
+.post-link {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.post-meta {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  margin-top: 0.5rem;
+}
