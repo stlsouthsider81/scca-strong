@@ -36,6 +36,6 @@ title: Home
 
 <div class="content-card text-center">
   <p>Have updates or corrections? Help us keep this information current.</p>
-  <a href="mailto:contact@sccastrong.com?subject=Suggested%20Edit" class="button">Suggest Edits</a>
+  <p>You can suggest changes via <a href="https://github.com/stlsouthsider81/scca-strong">GitHub</a> or email <a href="mailto:stlsouthsider81@aol.com?subject=SCCA%20Strong%20Website%20Update">stlsouthsider81@aol.com</a></p>
 </div>
 
