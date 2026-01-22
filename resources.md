@@ -26,15 +26,6 @@ permalink: /resources/
   <p style="background: var(--success-color); color: white; padding: 0.75rem; border-radius: 6px; font-weight: 600;">Great News: All spring sports fees are WAIVED for current SCCA athletes!</p>
   <p>Spring sports will continue as scheduled, giving our athletes normalcy, connection, and something positive during this transition. Register now with these coupon codes for 100% FREE registration:</p>
   
-  <div style="background: var(--background-secondary); padding: 1rem; border-radius: 6px; margin: 1rem 0;">
-    <h4 style="margin-top: 0; color: var(--primary-color);">Registration Codes:</h4>
-    <ul style="list-style: none; margin-left: 0;">
-      <li><strong>⚾ Baseball/Softball:</strong> <code style="background: white; padding: 0.25rem 0.5rem; border-radius: 4px;">SCCA4LIFE</code></li>
-      <li><strong>🏃 Track and Field:</strong> <code style="background: white; padding: 0.25rem 0.5rem; border-radius: 4px;">SCCA4EVER</code></li>
-      <li><strong>⛳ Golf Training (Grades 2-4):</strong> <code style="background: white; padding: 0.25rem 0.5rem; border-radius: 4px;">SCCAPROUD</code></li>
-      <li><strong>⛳ Golf Junior (Grades 5-8):</strong> <code style="background: white; padding: 0.25rem 0.5rem; border-radius: 4px;">SCCAALWAYS</code></li>
-    </ul>
-  </div>
   
   <p><strong>Important Notes:</strong></p>
   <ul>
